@@ -1,0 +1,76 @@
+[debug] [2025-04-18T15:30:51.530Z] ----------------------------------------------------------------------
+[debug] [2025-04-18T15:30:51.533Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-18T15:30:51.533Z] CLI Version:   14.2.0
+[debug] [2025-04-18T15:30:51.533Z] Platform:      win32
+[debug] [2025-04-18T15:30:51.533Z] Node Version:  v22.14.0
+[debug] [2025-04-18T15:30:51.533Z] Time:          Sat Apr 19 2025 00:30:51 GMT+0900 (대한민국 표준시)
+[debug] [2025-04-18T15:30:51.534Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-18T15:30:51.542Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-18T15:30:51.542Z] > authorizing via signed-in user (yisakoioioi@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sak\뜸부기\server
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-04-18T15:36:17.842Z] Checked if tokens are valid: true, expires at: 1744993818197
+[debug] [2025-04-18T15:36:17.842Z] Checked if tokens are valid: true, expires at: 1744993818197
+[debug] [2025-04-18T15:36:17.843Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-04-18T15:36:17.843Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"lucky-server","name":"lucky-server"}
+[debug] [2025-04-18T15:36:18.794Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2025-04-18T15:36:18.794Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2025-04-18T15:36:19.024Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\sak\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\sak\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID lucky-server. Please try again with a unique project ID.
+[debug] [2025-04-18T15:37:28.241Z] ----------------------------------------------------------------------
+[debug] [2025-04-18T15:37:28.244Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-18T15:37:28.244Z] CLI Version:   14.2.0
+[debug] [2025-04-18T15:37:28.244Z] Platform:      win32
+[debug] [2025-04-18T15:37:28.244Z] Node Version:  v22.14.0
+[debug] [2025-04-18T15:37:28.244Z] Time:          Sat Apr 19 2025 00:37:28 GMT+0900 (대한민국 표준시)
+[debug] [2025-04-18T15:37:28.245Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-18T15:37:28.251Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-18T15:37:28.251Z] > authorizing via signed-in user (yisakoioioi@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sak\뜸부기\server
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
